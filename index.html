@@ -1,25 +1,18 @@
 <!DOCTYPE HTML>
 
-<html ng-app="Conference Countdown">
+<html ng-app="ConferenceCountdown">
 	<head>
 		<link rel="stylesheet" href="clock.css">
-		<script src="bower_components/angular/angular.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
 		</script>
-		<script src="js/controllers/js"></script>
+		<script src="js/controllers.js"></script>
 	</head>
 	<body ng-controller="ConferenceListCtrl">
-		<div id="clockholder">
-		<ul>
-		<li ng-repeat="conference in conferences" id="clock1" class="allclocks"> 
+		<div ng-repeat="conference in conferences" id="clock1" class="allclocks"> 
 		<span>{{conference.name}} is in </span>
-		<span>{{conference.countdown}}</span>
+		<span class="alltime">{{conference.countdown}}</span>
 		<br>Days
 		<br><img src="img/augmentedhuman.png" height="100" width="100">
 		</div>
-		</div>
-		</li>
-		</ul>
-
-
 	</body>
 </html>

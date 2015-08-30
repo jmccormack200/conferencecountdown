@@ -1,0 +1,37 @@
+conferences([
+	{
+		"name":"MobiHoc",
+		"year":"2016",
+		"month":"1",
+		"day":"8",
+		"img":"img/mobihoc"
+	},
+	{
+		"name":"Augmented Human", 
+		"year":"2015",
+		"month":"11",
+		"day":"1", 
+		"img":"img/augmentedhuman.png"
+	},
+	{
+		"name":"SeGAH", 
+		"year":"2015,
+		"month":"10",
+		"day":"15", 
+		"img":"img/segah"
+	},
+	{
+		"name":"Southeast Con", 
+		"year":"2015",
+		"month":"12",
+		"day":"9", 
+		"img":"img/southeastcon"
+	},
+	{
+		"name":"ICVR", 
+		"year":"2016",
+		"month":"1",
+		"day":"25",
+		"img":"img/icvr"
+	} 
+]);
