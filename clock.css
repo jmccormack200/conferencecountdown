@@ -1,0 +1,21 @@
+@font-face{
+	font-family: 'Furore';
+	font-style: normal;
+	font-weight: normal;
+	src: url("Furore.otf") format("opentype");
+}
+
+#clock1 {
+	border-radius:25px;
+	background: #8AC007;
+	padding: 20px;
+	width: 200px;
+	height: 250px;
+	text-align: center;
+}
+
+#time{
+	font-family: 'Furore';
+	font-size: 96px;
+	vertical-align: middle;
+}

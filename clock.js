@@ -9,6 +9,6 @@ function countdown(year, month, day, display){
 
 window.onload = function(){
 	display = document.querySelector('#time');
-	countdown(2015,9,1,display);
+	countdown(2015,11,1,display);
 };
 
