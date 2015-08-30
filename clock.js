@@ -16,9 +16,18 @@ function conference(name, year, month, day, display, image){
 	}
 }
 
+function generateNewClock(num,conf){
+	var addclk = document.getElementById("clockholder");
+	var t = '<div id="clock"' + num + 'class="allclocks">'+ conf.name;
+	t = t + 'is in <br></div>';
+	t = document.createTextNode(t);
+	addclk.appendChild(t);
+}
+
 window.onload = function(){
 	display = document.querySelector('#time1');
-	var conf = new conference("Augmented Human",2015,11,1,display);
+	var conf = new conference("Augmented Face",2015,11,1,display);
 	conf.countdown();
-};
+	generateNewClock(2,conf);
+}
 

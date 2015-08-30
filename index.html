@@ -1,16 +1,24 @@
 <!DOCTYPE HTML>
 
-<html>
+<html ng-app="Conference Countdown">
 	<head>
 		<link rel="stylesheet" href="clock.css">
+		<script src="bower_components/angular/angular.js">
+		</script>
+		<script src="js/controllers/js"></script>
 	</head>
-	<body>
-		<script src="clock.js"></script>
-		<div id="clock1" class="allclocks"> Augmented Human is in <br>
-		<span id="time1" class="alltime"></span>
+	<body ng-controller="ConferenceListCtrl">
+		<div id="clockholder">
+		<ul>
+		<li ng-repeat="conference in conferences" id="clock1" class="allclocks"> 
+		<span>{{conference.name}} is in </span>
+		<span>{{conference.countdown}}</span>
 		<br>Days
 		<br><img src="img/augmentedhuman.png" height="100" width="100">
-		<div>
+		</div>
+		</div>
+		</li>
+		</ul>
 
 
 	</body>
