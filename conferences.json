@@ -1,0 +1,8 @@
+"conferences":[
+	{"name":"MobiHoc", "date":"2016-1-8", "img":"img/mobihoc"},
+	{"name":"Augmented Human", "date":"2015-11-1", "img":"img/augmentedhuman"},
+	{"name":"SeGAH", "date":"2015-10-15", "img/segah"},
+	{"name":"TRIDENTCOM", "date":"TBA", "img/tridentcom"},
+	{"name":"Southeast Con", "date":"2015-12-9", "img/southeastcon"},
+	{"name":"ICVR", "date":"2016-1-25", "img/icvr"} 
+]

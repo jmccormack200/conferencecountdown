@@ -5,7 +5,7 @@
 	src: url("Furore.otf") format("opentype");
 }
 
-#clock1 {
+.allclocks {
 	border-radius:25px;
 	background: #8AC007;
 	padding: 20px;
@@ -14,7 +14,7 @@
 	text-align: center;
 }
 
-#time{
+.alltime{
 	font-family: 'Furore';
 	font-size: 96px;
 	vertical-align: middle;
