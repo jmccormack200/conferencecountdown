@@ -12,7 +12,10 @@
 	width: 200px;
 	height: 250px;
 	text-align: center;
+	font-size:24px;
+	font-family:'Furore';
 }
+	
 
 .alltime{
 	font-family: 'Furore';
@@ -20,6 +23,7 @@
 	vertical-align: middle;
 }
 
-#clock2{
-	font-size:96px;
+.sources{
+	font-color:grey;
+	font-size:8px;
 }

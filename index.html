@@ -7,12 +7,27 @@
 		</script>
 		<script src="js/controllers.js"></script>
 	</head>
-	<body ng-controller="ConferenceListCtrl">
-		<div ng-repeat="conference in conferences" id="clock1" class="allclocks"> 
-		<span>{{conference.name}} is in </span>
-		<span class="alltime">{{conference.countdown}}</span>
+
+<body ng-controller="ConferenceListCtrl">
+		
+	<table style="width:100%">
+	<tr>
+	<td ng-repeat="conference in conferences" id="clock1" class="allclocks"> 
+	
+		<div>{{conference.name}} is in </div>
+		<div class="alltime">{{conference.countdown}}</div>
 		<br>Days
-		<br><img src="img/augmentedhuman.png" height="100" width="100">
-		</div>
-	</body>
+		<br><img src={{conference.img}} height="100" width="100">
+	</td>
+	</tr>
+	</table>
+	
+	<br><br><br><br><br><br>
+	<div class="sources">Sources:</div>
+	<div class="sources">http://www.augmented-human.com/<div>
+	<div class="sources">https://en.wikipedia.org/wiki/File:Association_for_Computing_Machinery_%28ACM%29_logo.svg</div>
+	<div class="sources">http://halfmiletiming.com/wp-content/uploads/2014/06/UCF_Knights_Body_3C.jpg </div>
+	<div class="sources">https://upload.wikimedia.org/wikipedia/en/thumb/7/73/ODU_monarch_logo.svg/1209px-ODU_monarch_logo.svg.png </div>
+	<div class="sources">https://cdn2.iconfinder.com/data/icons/modern-future-technology/128/oculus-rift2-512.png </div>
+</body>
 </html>

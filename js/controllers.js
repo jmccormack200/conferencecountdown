@@ -6,7 +6,7 @@ var conferenceList = [
                 "year":"2016",
                 "month":"1",
                 "day":"8",
-                "img":"img/mobihoc"
+                "img":"img/mobihoc.png"
         },
         {
                 "name":"Augmented Human",
@@ -20,21 +20,21 @@ var conferenceList = [
                 "year":"2015",
                 "month":"10",
                 "day":"15",
-                "img":"img/segah"
+                "img":"img/segah.png"
         },
         {
                 "name":"Southeast Con",
                 "year":"2015",
                 "month":"12",
                 "day":"9",
-                "img":"img/southeastcon"
+                "img":"img/southeastcon.png"
         },
         {
                 "name":"ICVR",
                 "year":"2016",
                 "month":"1",
                 "day":"25",
-                "img":"img/icvr"
+                "img":"img/icvr.png"
         }
 ];
 
@@ -62,6 +62,7 @@ conferenceApp.controller('ConferenceListCtrl', function($scope){
 		name = conf.name;
 		console.log(name);
 		countdown = conferencedays(conf.year, conf.month, conf.day);
-		$scope.conferences.push({"name":name,"countdown":countdown});
+		img = conf.img;
+		$scope.conferences.push({"name":name,"countdown":countdown,"img":img});
 	}	
 });
