@@ -1,10 +1,10 @@
 conferences([
 	{
-		"name":"MobiHoc",
+		"name":"IFIP",
 		"year":"2016",
-		"month":"1",
-		"day":"8",
-		"img":"img/mobihoc"
+		"month":"3",
+		"day":"1",
+		"img":"img/ifip"
 	},
 	{
 		"name":"Augmented Human", 

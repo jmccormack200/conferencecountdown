@@ -2,39 +2,46 @@ var conferenceApp = angular.module('ConferenceCountdown',[]);
 
 var conferenceList = [
         {
-                "name":"MobiHoc",
+                "name":"IFIP WMNC",
                 "year":"2016",
-                "month":"1",
-                "day":"8",
-                "img":"img/mobihoc.png"
-        },
-        {
-                "name":"Augmented Human",
-                "year":"2015",
-                "month":"11",
+                "month":"3",
                 "day":"1",
-                "img":"img/augmentedhuman.png"
+                "img":"img/IFIP.png"
         },
         {
-                "name":"SeGAH",
-                "year":"2015",
-                "month":"10",
-                "day":"15",
-                "img":"img/segah.png"
-        },
-        {
-                "name":"Southeast Con",
-                "year":"2015",
-                "month":"12",
-                "day":"9",
-                "img":"img/southeastcon.png"
-        },
-        {
-                "name":"ICVR",
+                "name":"MILCOM",
                 "year":"2016",
-                "month":"1",
-                "day":"25",
-                "img":"img/icvr.png"
+                "month":"4",
+                "day":"4",
+                "img":"img/MILCOM.png"
+        },
+        {
+                "name":"Asliomar",
+                "year":"2016",
+                "month":"5",
+                "day":"2",
+                "img":"img/sigconf.png"
+        },
+        {
+                "name":"FGCT",
+                "year":"2016",
+                "month":"6",
+                "day":"1",
+                "img":"img/uk.png"
+        },
+        {
+                "name":"MilCis",
+                "year":"2016",
+                "month":"6",
+                "day":"3",
+                "img":"img/aus.png"
+        },
+        {
+                "name":"DINWC2016",
+                "year":"2016",
+                "month":"6",
+                "day":"15",
+                "img":"img/uk.png"
         }
 ];
 
