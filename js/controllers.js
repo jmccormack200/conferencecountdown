@@ -2,18 +2,11 @@ var conferenceApp = angular.module('ConferenceCountdown',[]);
 
 var conferenceList = [
         {
-                "name":"IFIP WMNC",
-                "year":"2016",
-                "month":"3",
-                "day":"1",
-                "img":"img/IFIP.png"
-        },
-        {
-                "name":"MILCOM",
+                "name":"Thesis Defense",
                 "year":"2016",
                 "month":"4",
-                "day":"4",
-                "img":"img/MILCOM.png"
+                "day":"13",
+                "img":"img/thesis.png"
         },
         {
                 "name":"Asliomar",
@@ -21,6 +14,13 @@ var conferenceList = [
                 "month":"5",
                 "day":"2",
                 "img":"img/sigconf.png"
+        },
+        {
+                "name":"Head Home",
+                "year":"2016",
+                "month":"5",
+                "day":"21",
+                "img":"img/MB__home.png"
         },
         {
                 "name":"FGCT",
